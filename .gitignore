@@ -1,0 +1,5 @@
+target/
+gui/node_modules/
+gui/.next/
+gui/dev.log
+gui/dev-baseline.log
