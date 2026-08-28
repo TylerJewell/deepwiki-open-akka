@@ -1,0 +1,7 @@
+# What in this project was taken from somewhere else rather than written here, one path per
+# line with the reason after a `#`. `toolkit/source_hygiene.py` and `toolkit/copied_strings.py`
+# read this and say what they skipped, so a scan over "every source file" is not a hundred
+# findings about somebody else's minified bundle. `toolkit/split_licence.py` reads it as the
+# licence boundary: everything named here stays under the original's licence.
+
+gui  # the original's Next.js front end, reused whole under RENDERING.md R3
